@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <button class="button-left" id="toggle-sidebar"><img src="ball.png" alt=""></button>
+            <div class="search-bar">
+                <input type="search" id="city-input" placeholder="eg: Jakarta, Madrid">
+                <button type="submit" id="search-button"> Search</button>
+            </div>
+        </div>
+        <div class="content" id="content">
+            <div class="euro-content" id="euro-content" style="display: none;">
+                <div class="euro-city" id="euro-city-cards"></div>
+            </div>
+            <div class="main-content">
+                <div class="weather-forecast-today-text">
+                    <div>
+                        <h1>Weather Forecast Today</h1>
+                    </div>
+                </div>
+                <div class="weather-today">
+                    <div class="card-today">
+                        <div class="card-image">
+                        </div>
+                        <div class="today-content">
+                        </div>
+                    </div>
+                    <div class="card-today-2">
+                        <div class="card-today-detailed">
+                        </div>
+                        <div class="card-today-detailed-info">
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="weather-next-text">7 Days Weather Forecast</h2>
+                </div>
+                <div class="weather-next">
+                    <div class="cards" id="weather-next-1"></div>
+                    <div class="cards" id="weather-next-2"></div>
+                    <div class="cards" id="weather-next-3"></div>
+                    <div class="cards" id="weather-next-4"></div>
+                    <div class="cards" id="weather-next-5"></div>
+                    <div class="cards" id="weather-next-6"></div>      
+                    <div class="cards" id="weather-next-7"></div>        
+                </div>
+            </div>
+        </div>
+        <div id="spinner" class="spinner hidden">
+            <img src="spinner.gif" alt="Loading...">
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
