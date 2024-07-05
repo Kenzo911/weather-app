@@ -55,9 +55,9 @@ const weatherIcons = {
         82: 'weather icons/glass weather icons/Day/Rain.png',
         85: 'weather icons/glass weather icons/Day/Snow.png',
         86: 'weather icons/glass weather icons/Day/Snow.png',
-        95: 'weather icons/glass weather icons/Day/TStorm.png',
-        96: 'weather icons/glass weather icons/Day/TStorm.png',
-        99: 'weather icons/glass weather icons/Day/TStorm.png'
+        95: 'weather icons/glass weather icons/Day/T-storm.png',
+        96: 'weather icons/glass weather icons/Day/T-storm.png',
+        99: 'weather icons/glass weather icons/Day/T-storm.png'
     },
     night: {
         0: 'weather icons/glass weather icons/Night/moon.png',
